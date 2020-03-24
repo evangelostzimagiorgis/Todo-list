@@ -1,0 +1,27 @@
+body {
+    font-size: large;
+    color: azure;
+    background-color: #563d7c;
+}
+
+.container {
+    max-width: 400px;
+}
+.list-group-item {
+    background-color: #7c5bad;
+    color: azure;
+}
+
+input {
+    background-color: #7c5bad !important;
+    color: azure !important;;
+    
+}
+
+i {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5cf41ae6fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo list</title>
+</head>
+<body>
+    <div class="container">
+        <h5 class="text-center my-5">Todo list</h5>
+        <form class="search">           
+            <input type="text" class="form-control search-input" id="search">
+        </form>
+
+        <ul class="list-group my-5">
+            <li class="list-group-item">Go to sleep <i id="trash" class="float-right fas fa-trash-alt"></i></li>
+            <li class="list-group-item">Go for shoping<i id="trash" class="float-right fas fa-trash-alt"></i></li>
+        </ul>
+
+        <form class="add my-5">
+            <h6 class="text-center">Add a new Todo</h6>           
+            <input type="text" class="form-control add-input" id="add" >
+        </form>
+          
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
